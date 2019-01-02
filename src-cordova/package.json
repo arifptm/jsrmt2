@@ -1,0 +1,26 @@
+{
+    "name": "com.jasmadigital.jasma3",
+    "displayName": "Jasma Digital-Jam Sholat Masjid",
+    "version": "1.0.0",
+    "description": "Jadwal sholat digital menggunakan display TV LED.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Arif Patmainudin",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "cordova-android": "^7.1.4",
+        "cordova-browser": "^5.0.4",
+        "cordova-plugin-whitelist": "^1.3.3"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-whitelist": {}
+        },
+        "platforms": [
+            "android",
+            "browser"
+        ]
+    }
+}
